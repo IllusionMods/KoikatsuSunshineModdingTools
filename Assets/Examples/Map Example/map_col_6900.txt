@@ -1,2 +1,0 @@
-Capsule_Masking_00	Capsule_Masking_00
-Capsule_Masking_01	Capsule_Masking_01	PurpleCube

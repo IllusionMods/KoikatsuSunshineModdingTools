@@ -16,7 +16,7 @@ MonoBehaviour:
   - MapName: Purple Room
     DisplayName: Purple Room
     No: 6900
-    Sort: 0
+    Sort: 6900
     AssetBundleName: map/scene/purpleroom.unity3d
     AssetName: PurpleRoom
     isGate: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
     isSpH: 0
     isSky: 0
     isH: 0
-    ThumbnailMorningID: 0
-    ThumbnailDayTimeID: 0
-    ThumbnailEveningID: 0
-    ThumbnailNightID: 0
+    ThumbnailMorningID: 6900
+    ThumbnailDayTimeID: 6901
+    ThumbnailEveningID: 6902
+    ThumbnailNightID: 6903
