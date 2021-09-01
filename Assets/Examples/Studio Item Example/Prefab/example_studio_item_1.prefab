@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1318618176824115}
+  m_IsPrefabParent: 1
+--- !u!1 &1286973718652111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4941478893917472}
+  - component: {fileID: 23149951561246961}
+  - component: {fileID: 33948796481830925}
+  m_Layer: 10
+  m_Name: item_pencil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1318618176824115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4619968884512943}
+  - component: {fileID: 114522868598741846}
+  m_Layer: 10
+  m_Name: example_studio_item_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4619968884512943
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318618176824115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4941478893917472}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4941478893917472
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286973718652111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_Children: []
+  m_Father: {fileID: 4619968884512943}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23149951561246961
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286973718652111}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 17bbb1d2c878ea8b44ff060428b9b0f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33948796481830925
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286973718652111}
+  m_Mesh: {fileID: 4300000, guid: 30dc435fbd7c829e42037c2068d91b68, type: 2}
+--- !u!114 &114522868598741846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318618176824115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d263bf6a533ea429ec86cb7d9913d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rendNormal:
+  - {fileID: 23149951561246961}
+  rendAlpha: []
+  rendGlass: []
+  info:
+  - useColor: 1
+    defColor: {r: 1, g: 1, b: 1, a: 1}
+    usePattern: 1
+    defColorPattern: {r: 1, g: 1, b: 1, a: 1}
+    defClamp: 0
+    defUV: {x: 0, y: 0, z: 1, w: 1}
+    defRot: 0
+  - useColor: 1
+    defColor: {r: 1, g: 1, b: 1, a: 1}
+    usePattern: 1
+    defColorPattern: {r: 1, g: 1, b: 1, a: 1}
+    defClamp: 0
+    defUV: {x: 0, y: 0, z: 1, w: 1}
+    defRot: 0
+  - useColor: 1
+    defColor: {r: 1, g: 1, b: 1, a: 1}
+    usePattern: 1
+    defColorPattern: {r: 1, g: 1, b: 1, a: 1}
+    defClamp: 0
+    defUV: {x: 0, y: 0, z: 1, w: 1}
+    defRot: 0
+  defShadow: {r: 1, g: 1, b: 1, a: 1}
+  alpha: 1
+  defGlass: {r: 1, g: 1, b: 1, a: 1}
+  defLineColor: {r: 0, g: 0, b: 0, a: 1}
+  defLineWidth: 1
+  defEmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  defEmissionPower: 0
+  defLightCancel: 0
+  setcolor: 0

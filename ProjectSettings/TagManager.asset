@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Action/WarpPoint
+  - Action/HArea
+  - H/Aibu/Hit/kokan
+  - H/Aibu/Hit/mouth
+  - H/Aibu/Hit/muneL
+  - H/Aibu/Hit/muneR
+  - H/Aibu/Hit/siriL
+  - H/Aibu/Hit/siriR
+  - H/Aibu/Hit/anal
+  - H/Aibu/Hit/block
+  - MapObject
+  - Sun
+  - SpriteTop
+  - H/Ground
+  - H/Aibu/Hit/Reaction/head
+  - H/Aibu/Hit/Reaction/bodyup
+  - H/Aibu/Hit/Reaction/bodydown
+  - H/Aibu/Hit/Reaction/armL
+  - H/Aibu/Hit/Reaction/armR
+  - H/Aibu/Hit/Reaction/legL
+  - H/Aibu/Hit/Reaction/legR
+  - body
+  - Com/Hit/Head
+  - Com/Hit/Cheek
+  - Com/Hit/HandL
+  - Com/Hit/HandR
+  - Com/Hit/MuneL
+  - Com/Hit/MuneR
+  - H/H_body
+  - H/HPoint
+  - NPC
+  - Action/ActionPoint
+  - FixChara
+  - ObjColor
+  - Studio
+  - fxCol
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PowerUI
+  - Config
+  - Chara
+  - Map
+  - CameraCollision
+  - Action/Chara
+  - Action/Gate
+  - 
+  - 
+  - Action/Area
+  - Action/Notice
+  - Action/EventArea
+  - Action/ActionPoint
+  - Action/EventCamera
+  - Action/MiniMap
+  - HScene/MoveAxis
+  - HScene/MetaballA
+  - HScene/MetaballB
+  - HScene/ScreenCamera
+  - Studio/Col
+  - Studio/Select
+  - Studio/Camera
+  - Studio/Route
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

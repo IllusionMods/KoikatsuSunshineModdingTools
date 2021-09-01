@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mat_Wireframe
+  m_Shader: {fileID: 4800000, guid: a7de4bf0f370ca243b4604b8cd314ffc, type: 3}
+  m_ShaderKeywords: _ALPHA_A_ON _ALPHA_B_ON _LINETEXON_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AnotherRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _liquidmask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _DetailBLineGA: 0
+    - _MaxTriSize: 25
+    - _ShadowExtend: 1
+    - _SpeclarHeight: 0.98
+    - _SpecularPower: 0
+    - _WireSmoothness: 3
+    - _WireThickness: 100
+    - _alpha_a: 1
+    - _alpha_b: 1
+    - _liquidbbot: 0
+    - _liquidbtop: 0
+    - _liquidface: 0
+    - _liquidfbot: 0
+    - _liquidftop: 0
+    - _outline: 0
+    - _rimV: 0.2
+    - _rimpower: 0.8
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LiquidTiling: {r: 0, g: 0, b: 2, a: 2}
+    - _ShadowColor: {r: 0.628, g: 0.628, b: 0.628, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _WireColor: {r: 0, g: 1, b: 0, a: 1}
