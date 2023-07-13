@@ -1,4 +1,4 @@
-﻿using System.IO;
+using System.IO;
 using UnityEngine;
 
 [ExecuteInEditMode]
@@ -18,8 +18,10 @@ public class ChaCustomHairComponent : MonoBehaviour
     [HideInInspector]
     [Range(0f, 1f)]
     public float lengthRate;
-    [HideInInspector]
+
+    [Tooltip("Required when using Rend Accessory")]
     public Color[] acsDefColor;
+
     [HideInInspector]
     public int initialize;
     [HideInInspector]
@@ -63,6 +65,8 @@ public class ChaCustomHairComponent : MonoBehaviour
 
     public void SetAccessoryColor()
     {
+        if (rendAccessory == null)
+            return;
         foreach (var rend in rendAccessory)
             foreach (var mat in rend.sharedMaterials)
                 mat.SetColor("_Color", Color.red);
@@ -70,6 +74,8 @@ public class ChaCustomHairComponent : MonoBehaviour
 
     public void SetHairMaterials(bool enabled)
     {
+        if (rendHair == null)
+           return;
         foreach (var rend in rendHair)
             foreach (var mat in rend.sharedMaterials)
             {
