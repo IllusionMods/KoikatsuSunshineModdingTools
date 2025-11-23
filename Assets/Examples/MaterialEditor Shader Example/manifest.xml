@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest schema-ver="1">
   <guid>IllusionMods.MaterialEditorShaderExample</guid>
   <name>Material Editor Shader Example</name>
   <version>1.0</version>
   <author>IllusionMods</author>
   <description>MaterialEditorShaderExample</description>
-  <website>https://github.com/IllusionMods/KoikatsuModdingTools</website>
+  <website>https://gitgoon.dev/IllusionMods/KoikatsuModdingTools</website>
   <KK_MaterialEditor>
     <Shader Name="SuperSystems/Wireframe" AssetBundle="chara/shaders/wireframe.unity3d" Asset="asset_Wireframe">
       <Property Name="WireThickness" Type="Float" Range="0,800" />

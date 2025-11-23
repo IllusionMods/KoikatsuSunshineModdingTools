@@ -1,11 +1,11 @@
 # KoikatsuSunshineModdingTools
 This is a set of tools for creating Koikatsu Sunshine mods in Unity Editor.
 
-Note: Very early WIP, at the moment it's only useful for creating map mods. I strongly encourage you to use [KoikatsuModdingTools](https://github.com/IllusionMods/KoikatsuModdingTools) for creating any other type of mod, since Koikatsu mods are compatible with Koikatsu Sunshine but the reverse is not true.
+Note: Very early WIP, at the moment it's only useful for creating map mods. I strongly encourage you to use [KoikatsuModdingTools](https://gitgoon.dev/IllusionMods/KoikatsuModdingTools) for creating any other type of mod, since Koikatsu mods are compatible with Koikatsu Sunshine but the reverse is not true.
 
 ## How to use it
 1. Download [Unity 2019.4.9](https://unity3d.com/get-unity/download/archive) which is the version that Koikatsu Sunshine uses.
-2. Download the repository by clicking the green "Clone or download" button on Github, up in the top right.
+2. Download the repository by cloning it or by downloading it as a .zip file (the cloning controls are in the top right corner).
 3. Open the project in Unity.
 4. Try the example projects.
 
@@ -63,7 +63,7 @@ Normal map textures are converted to the transparent-red style instead of the tr
 Note: Generally, using High Quality compression for textures is prefered, except where textures extract from game files already used Normal Quality compression (DXT5, DXT1).
 
 #### Importing Asset Bundles
-It is possible with the use of uTinyRipper to import the contents of asset bundles you've created in the past, in case you would like to convert your existing mods to a format KoikatsuModdingTools can use. [See the guide](https://github.com/IllusionMods/KoikatsuModdingTools/wiki/Importing-Contents-Of-AssetBundles) on how to do so.
+It is possible with the use of uTinyRipper to import the contents of asset bundles you've created in the past, in case you would like to convert your existing mods to a format KoikatsuModdingTools can use. [See the guide](https://gitgoon.dev/IllusionMods/KoikatsuModdingTools/wiki/Importing-Contents-Of-AssetBundles) on how to do so.
 
 ## Work in progress
 Koikatsu Modding Tools is a work in progress, please report any bugs you may find. If you are interested in contributing to development, these are the things that need to be done.
